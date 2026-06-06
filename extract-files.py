@@ -26,7 +26,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/motorola/ocean',
+    'device/motorola/deen',
     'device/motorola/sdm632-common',
     "hardware/qcom-caf/msm8996",
     "hardware/qcom-caf/wlan",
@@ -60,7 +60,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'ocean',
+    'deen',
     'motorola',
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,

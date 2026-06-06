@@ -1,1 +1,1 @@
-require board=sdm632|ocean
+require board=msm8953|deen

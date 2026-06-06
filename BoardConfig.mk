@@ -17,17 +17,17 @@
 # Inherit from motorola sdm632-common
 -include device/motorola/sdm632-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/ocean
+DEVICE_PATH := device/motorola/deen
 
 # Assertions
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := ocean
+TARGET_OTA_ASSERT_DEVICE := deen
 
 # Display
 TARGET_SCREEN_DENSITY := 320
 
 # Kernel
-TARGET_KERNEL_CONFIG := ocean_defconfig
+TARGET_KERNEL_CONFIG := deen_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432        #    32768 * 1024 mmcblk0p41-42
@@ -41,4 +41,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # inherit from the proprietary version
-include vendor/motorola/ocean/BoardConfigVendor.mk
+include vendor/motorola/deen/BoardConfigVendor.mk

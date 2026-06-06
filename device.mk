@@ -15,7 +15,7 @@
 #
 
 # Vendor blobs
-$(call inherit-product, vendor/motorola/ocean/ocean-vendor.mk)
+$(call inherit-product, vendor/motorola/deen/deen-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

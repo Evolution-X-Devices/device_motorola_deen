@@ -7,12 +7,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := motorola
-PRODUCT_DEVICE := ocean
+PRODUCT_DEVICE := deen
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_MODEL := moto g(7) power
-PRODUCT_NAME := lineage_ocean
+PRODUCT_MODEL := motorola one
+PRODUCT_NAME := lineage_deen
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="ocean-user 10 QPOS30.52-29-12 401fd release-keys" \
-    BuildFingerprint=motorola/ocean/ocean:10/QPOS30.52-29-12/401fd:user/release-keys \
-    DeviceName=ocean
+    BuildDesc="deen_sprout-user 10 QPKS30.54-22-27 92b8a release-keys" \
+    BuildFingerprint=motorola/deen/deen_sprout:10/QPKS30.54-22-27/92b8a:user/release-keys \
+    DeviceProduct=deen_sprout

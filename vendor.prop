@@ -9,7 +9,7 @@ persist.vendor.audio.calfile6=/vendor/etc/acdbdata/na/Speaker_cal.acdb
 ro.hardware.audio.primary=msm8953-moto
 
 # Bluetooth
-bluetooth.device.default_name=moto g(7) power
+bluetooth.device.default_name=motorola one
 
 # Camera
 persist.vendor.camera.expose.aux=1
@@ -18,7 +18,7 @@ persist.vendor.camera.expose.aux=1
 ro.support_hide_display_cutout=true
 
 # Sensors
-ro.hardware.sensors=ocean
+ro.hardware.sensors=deen
 ro.vendor.sensors.amd=false
 ro.vendor.sensors.facing=false
 ro.vendor.sensors.mot_detect=true
